@@ -47,15 +47,15 @@ a[href] {
 }
 
 a[href]:visited {
-    font-style: italic; /* Italicize the text for visited links */
+    font-style: italic;
 }
 
 a[href]:hover {
-    text-decoration: underline; /* Underline the text when hovering */
+    text-decoration: underline;
 }
 
 a[href]:active {
-    background-color: var(--color-light-grey); /* Set background color for active links */
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
