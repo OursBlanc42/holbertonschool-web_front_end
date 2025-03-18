@@ -25,7 +25,6 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -48,23 +47,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:link {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited {
-    font-style: italic;
+a[href]:visited {
+    font-style: italic; /* Italicize the text for visited links */
 }
 
-a:hover {
-    text-decoration: underline;
+a[href]:hover {
+    text-decoration: underline; /* Underline the text when hovering */
 }
 
-a:active {
-    background-color: var(--color-light-grey);
+a[href]:active {
+    background-color: var(--color-light-grey); /* Set background color for active links */
 }
-
 
 .visually-hidden {
     display: none;
