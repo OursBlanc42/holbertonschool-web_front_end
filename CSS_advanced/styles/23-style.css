@@ -196,9 +196,8 @@ ul.row {
     background-color: var(--color-black);
 }
 
-
-.footer-adress {
-    color:var(--text-color);
+.footer-address {
+    color: var(--text-color);
 }
 
 .social-link {
@@ -208,4 +207,3 @@ ul.row {
 .social-link svg {
     color: var(--text-color);
 }
-
