@@ -259,8 +259,8 @@ ul.row {
     height: 10rem;
 }
 
-.card-testimonials .card-quote .cite {
+.card-testimonials .card-quote cite {
     display: block;
-    padding: 1rem;
+    padding-top: 1rem;
     color: var(--color-primary);
 }
