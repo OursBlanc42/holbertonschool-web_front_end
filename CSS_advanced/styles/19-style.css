@@ -30,14 +30,14 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-    --nav-item-font-family: font-family-title;
-    --nav-item-font-weight: font-weight-bold;
-    --nav-item-font-size: font-size-medium;
-    --nav-item-letter-spacing: 0.04em;
+    --nav-item-font-family : var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
-    --section-tagline-margin : 0;
+    --section-tagline-margin: 0;
 }
 
 *, *::before, *::after {
@@ -137,7 +137,7 @@ a:active {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -146,16 +146,16 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem;   
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
-.row ul {
+.ul .row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -174,7 +174,7 @@ a:active {
 }
 
 .footer-copyright {
-    margin: 0;
+    margin : 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
