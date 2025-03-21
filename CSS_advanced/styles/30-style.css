@@ -339,6 +339,10 @@ ul.row {
     z-index: 1;
 }
 
+.card-work:hover .card-inner{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .card-work .card-title {
     text-align: center;
     margin: 0;
@@ -366,6 +370,3 @@ ul.row {
     opacity: 1;
 }
 
-.card-work .card-inner:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
